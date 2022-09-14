@@ -3,7 +3,7 @@ source("libraries.R")
 source("wrangle.R")
 
 # Application title
-navbarPage(title = "Baby Names",collapsible = TRUE,
+navbarPage(theme = shinytheme("cerulean"),title = "Baby Names",collapsible = TRUE,
   navbarMenu(title="About",
       tabPanel(title="Site",align="center",
                     h4("Data driven baby name insights",),
