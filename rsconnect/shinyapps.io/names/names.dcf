@@ -1,0 +1,14 @@
+name: names
+title:
+username:
+account: names
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4835225
+bundleId: 5154425
+url: https://names.shinyapps.io/names/
+when: 1634652320.31933
+lastSyncTime: 1634652320.31933
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: beiber.png|data/babynames1996to2019.xlsx|data/long-run-trends.xlsm
