@@ -1,7 +1,7 @@
 function(input, output, session) {
 # Scatter plot for all names 
   output$allScatter <- renderPlot({
-    scat<-df_full%>%
+    df_full%>%
       group_by(name,sex)%>%
       filter(rank[year==2020]<=150)%>%
       mutate(avg_rank=mean(rank[year<=2015],na.rm =TRUE))%>%
